@@ -1,0 +1,735 @@
+@media (max-width: 1600px) {
+  .promotions__imagesbg {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1540px) {
+  .services__blog-zal,
+  .services__blog-pool {
+    margin-right: 0px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .services__text,
+  .services__text-pool {
+    color: #fff;
+  }
+
+  .services__btn,
+  .services__btn-pool {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+  }
+
+  .services__btn-pool {
+    order: 1;
+    margin-right: 0px;
+  }
+
+  .services__text-pool {
+    margin-right: 13px;
+  }
+
+
+  .services__blog-zal {
+    margin-right: 30px;
+  }
+
+  .services__blog-zal .services__blog-zalimg,
+  .services__new,
+  .services__blog-pool .services__blog-zalimg1,
+  .services__new-pool {
+    position: static;
+  }
+
+  .services__blog-zal .services__blog-zalimg,
+  .services__blog-pool .services__blog-zalimg1 {
+    width: 100%;
+  }
+
+  .services__new {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .services__point,
+  .services__point-pool {
+    display: none;
+  }
+}
+
+@media (max-width: 1251px) {
+  .promotions.gymActive {
+    background-image: none;
+  }
+
+  .promotions__title.gymActive {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .services__flex-bottomitem {
+    width: 50%;
+    flex: 0 0 45%;
+  }
+
+  .gym__rei img {
+    margin: 0 auto;
+    width: 94%;
+  }
+
+  .map__text {
+    max-width: 100%;
+  }
+
+  .promotions__scidka-images,
+  .map__container {
+    width: 100%;
+  }
+
+  .map__container,
+  .map__container.contacts__container {
+    order: -1;
+    margin-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .map__container.contacts__container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .map__blog {
+    position: static;
+    width: 100%;
+    border: 1px solid #82828254;
+    box-shadow: none;
+  }
+
+  .map,
+  .contacts__flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contacts__blog {
+    width: 100%;
+  }
+
+  .contacts .map__blog.contacts__map {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1196px) {
+  .header__menu ul {
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+    height: 100%;
+  }
+
+  .cards__club {
+    width: 30%;
+    flex: 0 0 30%;
+  }
+
+  .prices__flex a {
+    margin-bottom: 10px;
+  }
+
+  .header__jsburger {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 300px;
+    height: 100%;
+    z-index: 11;
+  }
+
+
+  .cosiness__flex img {
+    margin-bottom: 26px;
+    width: 50%;
+    flex: 0 0 47%;
+  }
+
+  .header__menu .header__jsburger {
+    width: 0px;
+    transition: width 0.8s;
+    overflow: hidden;
+  }
+
+  .header__menu .header__jsburger.open {
+    width: 300px;
+  }
+
+  .header__menu ul li {
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+
+  .rd-navbar-toggle {
+    display: flex;
+    position: absolute;
+    left: -11px;
+    top: 5px;
+  }
+
+  .rd-navbar-toggle.close {
+    right: 0;
+    left: auto;
+    top: -16px;
+  }
+
+  .header__menu ul li a {
+    width: 100%;
+    border-bottom: 1px solid #8282826e;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+
+  .header__menu {
+    margin-right: 0px;
+  }
+
+  .header__contentflex {
+    justify-content: space-between;
+  }
+
+  .header__logo {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer__flex {
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+  }
+
+  .footer__blog {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .header__top {
+    flex-direction: column;
+    padding: 10px 0px 10px;
+  }
+
+  .team__blog.bottom img,
+  .team__blog.bottom img.score__images,
+  .team__blog.bottom img.score__images1,
+  .team__blog.bottom img.score__images2 {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .team__blog {
+    width: 30%;
+    flex: 0 0 28%;
+    margin-bottom: 30px;
+  }
+
+  .team__blog img {
+    width: 100%;
+  }
+
+  .cards__club {
+    width: 30%;
+    flex: 0 0 46%;
+    margin-bottom: 30px;
+  }
+
+  .cards__flex {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .cards__text {
+    max-width: 100%;
+  }
+
+  .cards__flex img {
+    width: 100%;
+  }
+
+  .header__mediablog {
+    width: 100%;
+  }
+
+  .header__blog {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .header__address {
+    margin-right: 10px;
+  }
+
+  .header__blog:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 867px) {
+  .cosiness__flex img {
+    margin-bottom: 26px;
+    width: 44%;
+    flex: 0 0 44%;
+  }
+
+  .promotions__scidka-blog.bottom {
+    padding: 0px;
+  }
+
+  .promotions__scidka-items.bottom {
+    padding: 60px 0px 60px 60px;
+    width: 100%;
+    flex: 0 0 auto;
+    padding-right: 30px;
+  }
+
+  .promotions__scidka-items {
+    padding: 64px 0px 56px 60px;
+    width: 100%;
+    margin-right: 0;
+    padding-right: 30px;
+  }
+
+  .promotions__scidka-obertka {
+    display: none;
+  }
+
+  .services__flex {
+    flex-direction: column;
+  }
+
+  .services__blog-zal,
+  .services__blog-pool {
+    width: 100%;
+    border-radius: 0px;
+  }
+}
+
+@media (max-width: 801px) {
+  .services__flex-bottomitem {
+    width: 100%;
+    flex: 100%;
+  }
+
+  .promotions.gymActive,
+  .promotions__title.gymActive {
+    min-height: 200px;
+  }
+
+  .promotions__imagesbg {
+    display: none;
+  }
+
+  .promotions__title.width {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .footer {
+    padding: 38px 0px 1px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section__title,
+  .promotions__scidka-title1 {
+    font-size: calc(37px + (18 + 18 * 0.7) * ((100vw - 320px) / 1920));
+  }
+
+  .schedule__titlebottom {
+    font-size: calc(24px + (12 + 12 * 0.7) * ((100vw - 320px) / 1920));
+  }
+
+  .cards__club {
+    width: 30%;
+    flex: 0 0 45%;
+  }
+
+  .prices__flex a {
+    font-size: calc(11px + (4 + 4 * 0.7) * ((100vw - 320px) / 1920));
+  }
+
+  .promotions__title {
+    font-size: calc(47px + (18 + 18 * 0.7) * ((100vw - 320px) / 1920));
+  }
+
+  .promotions__title.gymActive {
+    font-size: calc(39px + (26 + 26 * 0.7) * ((100vw - 320px) / 1920));
+  }
+
+  .gym__title {
+    font-size: calc(32px + (4 + 4 * 0.7) * ((100vw - 320px) / 1920));
+  }
+
+  .promotions__scidka-title1.bottom {
+    font-size: calc(32px + (23 + 23 * 0.7) * ((100vw - 320px) / 1920));
+  }
+
+  .section__skidca,
+  .promotions__scidka-skidca {
+    font-size: calc(38px + (22 + 22 * 0.7) * ((100vw - 320px) / 1920));
+  }
+
+  .promotions__scidka-skidca.bottom {
+    font-size: calc(50px + (40 + 40 * 0.7) * ((100vw - 320px) / 1920));
+  }
+
+  .cosiness__title {
+    font-size: calc(32px + (4 + 4 * 0.7) * ((100vw - 320px) / 1920));
+  }
+
+  .services__podrobnee {
+    font-size: calc(17px + (7 + 7 * 0.7) * ((100vw - 320px) / 1920));
+  }
+
+  .services__podrobnee a {
+    font-size: calc(11px + (2 + 2 * 0.7) * ((100vw - 320px) / 1920));
+  }
+
+  .services__text,
+  .services__text-pool {
+    font-size: calc(18px + (8 + 8 * 0.7) * ((100vw - 320px) / 1920));
+  }
+
+  .map__text {
+    font-size: calc(23px + (7 + 7 * 0.7) * ((100vw - 320px) / 1920));
+  }
+
+  .header__btn {
+    font-size: calc(10px + (4 + 4 * 0.7) * ((100vw - 320px) / 1920));
+  }
+}
+@media (max-width: 703px) {
+  .gym__arrow {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .cards__club {
+    width: 100%;
+    flex: 0 0 100%;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .cards__flex-box {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .cards li.bottom {
+    max-width: 100%;
+  }
+
+  .team__blog {
+    width: 30%;
+    flex: 0 0 42%;
+  }
+}
+
+@media (max-width: 535px) {
+
+
+  .gym__slider ul {
+    bottom: 4px;
+  }
+
+  .gym__rei.media {
+    display: none;
+  }
+ 
+
+  .section {
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 461px) {
+  .header__blog {
+    flex-direction: column;
+  }
+
+  .section__slider-inner {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  #map {
+    height: 350px !important;
+  }
+
+  .gym__slider ul li {
+    margin-right: 15px;
+  }
+ 
+
+  .header__menu .header__jsburger.open {
+    width: 100%;
+  }
+
+  .map__blog {
+    padding: 15px;
+  }
+
+  .header__logo-relative {
+    width: 100%;
+  }
+
+  .promotions__scidka-skidca.bottom {
+    line-height: 62px;
+  }
+
+  .promotions__scidka-items.bottom {
+    padding: 15px;
+  }
+
+  .promotions__scidka-items {
+    padding: 15px 15px 15px 15px;
+  }
+
+  .promotions__scidka-blog {
+    border-radius: 0px;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .promotions__scidka-title1 {
+    line-height: 33px;
+    margin-bottom: 15px;
+  }
+
+  .promotions__scidka-skidca {
+    margin-bottom: 15px;
+  }
+
+  .promotions__scidka-nav {
+    margin-bottom: 19px;
+  }
+
+  .promotions__scidka,
+  .prices,
+  .cards,
+  .team,
+  .contacts,
+  .schedule,
+  .gym,
+  .hall,
+  .programs,
+  .pooL,
+  .erobika,
+  .child,
+  .bath,
+  .sauna,
+  .spa,
+  .development,
+  .group,
+  .about {
+    padding: 13px 0px 0px;
+  }
+
+  .promotions {
+    background-position: -100px 0px;
+    border-radius: 0px;
+    min-height: 50px;
+    padding: 0;
+    padding: 5px 0px 5px;
+  }
+
+  .promotions.gymActive {
+    border-radius: 0px;
+    padding: 0;
+    padding: 5px 0px 5px;
+    min-height: 50px;
+  }
+
+  .promotions__title,
+  .promotions__title.gymActive {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+  }
+
+  .section__title {
+    margin-bottom: 15px;
+  }
+
+  .section__skidca {
+    margin-bottom: 15px;
+  }
+
+  .section__title {
+    line-height: 33px;
+  }
+
+  .header__phone {
+    margin-right: 0px;
+  }
+
+  .rd-navbar-toggle {
+    left: auto;
+    right: 0;
+  }
+
+  .header__logo {
+    margin: 0;
+  }
+
+  .header__mediablog {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header__btn.none {
+    display: flex;
+  }
+
+  .header__btn {
+    display: none;
+  }
+
+  .header__blog.center {
+    text-align: center;
+  }
+
+  .services__blog-zal,
+  .services__blog-pool {
+    min-height: 200px;
+  }
+
+  .cosiness {
+    padding: 50px 0px 34px;
+  }
+
+  .services__title {
+    margin-bottom: 30px;
+  }
+
+  .cosiness__title {
+    margin-bottom: 28px;
+  }
+
+  .cosiness__flex img {
+    margin-bottom: 26px;
+    width: 100%;
+    flex: 0 0 100%;
+  }
+  .cosiness__flex,
+  .cosiness__flex img {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .section__minitext {
+    margin-bottom: 61px;
+  }
+
+  .header__address {
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 440px) {
+  .map__blog {
+    width: 100%;
+  }
+
+  .section__minitext {
+    margin-bottom: 33px;
+  }
+
+  .section__arrow {
+    bottom: 22px;
+  }
+
+  .section__slider ul {
+    bottom: 27px;
+  }
+}
+
+@media (max-width: 403px) {
+  .team__blog {
+    width: 100%;
+    flex: 0 0 100%;
+    margin-right: 0px;
+    margin-left: 0;
+  }
+
+  .promotions__title.gymActive {
+    text-align: center;
+    line-height: 38px;
+  }
+
+  .promotions__title.width {
+    line-height: 43px;
+  }
+
+  .team__flex {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .team__blog.bottom img {
+    width: 156px;
+    margin: 0 auto;
+    margin-bottom: 18px;
+  }
+
+  .team__blog.bottom img.score__images {
+    width: 201px;
+  }
+
+  .team__blog.bottom img.score__images1 {
+    width: 237px;
+  }
+
+  .team__blog.bottom img.score__images2 {
+    width: 166px;
+  }
+}
+
+@media (max-width: 394px) {
+  .services__obertkaimg img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .services__flex-bottomitem {
+    padding: 23px 21px 18px 15px;
+  }
+
+  .services__podrobnee a {
+    width: 104px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header__btn {
+    height: 34px;
+    width: 221px;
+  }
+}
